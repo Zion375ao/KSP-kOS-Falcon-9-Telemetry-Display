@@ -1,5 +1,6 @@
 # KSP Falcon 9 kOS Telemetry Display
 - A **kOS script** that adds a telemetry display for **Tundra Exploration's Falcon 9**
+- Future updates will feature displays for both the booster and 2nd stage. But for now, only the booster has it.
 
 <img width="656" height="240" alt="F9_Telemetry_Display_Demo" src="https://github.com/user-attachments/assets/e99df26d-faed-4e1c-acd9-51b3495b0318" />
 
@@ -8,7 +9,7 @@
 - **Kerbal Operating System (kOS)**
 
 > [!IMPORTANT]
-> - This script might break on displays other than 1080p. RO or RSS might also break the script. Otherwise, this script should work.
+> - This script might break on displays other than 1080p. RO or RSS might also break the script. Otherwise, this script should function normally. If anything pops up, feel free to contact me on Tundra Exploration's Discord or on my Discord handle, @zionjadehd.
 
 ## The telemetry script adds:
 - **SPEED** (KM/H)
