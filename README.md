@@ -13,3 +13,5 @@
 - **THROTTLE** (%)
 - **G-FORCE** (G)
 - **TWR** 
+
+## How to install 
