@@ -25,17 +25,16 @@
 - Open KSP and go to the VAB/HANGAR
 - Search for "kOS" (any kOS CPU should work, but I decided to go with KAL9000)
 
-<img width="264" height="286" alt="Step 1-2" align="center" src="https://github.com/user-attachments/assets/c0617057-fad2-4a01-ad90-49c013f3a34b" />
-
+<img width="264" height="286" alt="Step 1-2" src="https://github.com/user-attachments/assets/c0617057-fad2-4a01-ad90-49c013f3a34b" />
 
 - Place the kOS CPU anywhere on your Falcon 9 Booster (**NOT THE SECOND STAGE**)
 - Right click on the CPU and look for "Boot File"
    
-<img width="798" height="537" alt="Step 3-4" align="center" src="https://github.com/user-attachments/assets/a0ae79b6-ee89-47a1-8f21-ba5235543d43" />
+<img width="798" height="537" alt="Step 3-4" src="https://github.com/user-attachments/assets/a0ae79b6-ee89-47a1-8f21-ba5235543d43" />
 
 - Click left or right to find "F9_Booster_Telemetry.ks"
     
-<img width="298" height="466" alt="Step 5" align="center" src="https://github.com/user-attachments/assets/5e593899-11e6-43ba-b59d-3fd937ec9a34" />
+<img width="298" height="466" alt="Step 5" src="https://github.com/user-attachments/assets/5e593899-11e6-43ba-b59d-3fd937ec9a34" />
 
 - The telemetry will activate once you start generating thrust or your speed is above 0
 - Final step, load the craft, and enjoy!
