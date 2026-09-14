@@ -27,6 +27,7 @@
 
 <img width="264" height="286" alt="Step 1-2" align="center" src="https://github.com/user-attachments/assets/c0617057-fad2-4a01-ad90-49c013f3a34b" />
 
+
 - Place the kOS CPU anywhere on your Falcon 9 Booster (**NOT THE SECOND STAGE**)
 - Right click on the CPU and look for "Boot File"
    
