@@ -15,7 +15,7 @@ set ORANGE to RGB(255, 160, 0).
 
 //GUI
 local g is GUI(450).   
-    set g:style:normal:bg to "GUI V3/Body.png".
+    set g:style:normal:bg to "Assets/Body.png".
     set g:style:height to 275.
     set g:style:width to 665.
     set g:style:overflow:bottom to 5.
@@ -23,7 +23,7 @@ local g is GUI(450).
     set g:y to 791.
 
 local Title is g:addlabel().
-    set Title:style:normal:bg to "GUI V3/Title.png".
+    set Title:style:normal:bg to "Assets/Title.png".
     set Title:style:wordwrap to false.
     set Title:style:height to 30.
     set Title:style:width to 240.
@@ -50,7 +50,7 @@ set HorizontalPlace:style:bg to "".
 set Fuel_Levels_GUI:style:bg to "".
 
 local VLine_1 to HorizontalPlace:addlabel().
-    set VLine_1:style:normal:bg to "GUI V3/Vertical_Line.png".
+    set VLine_1:style:normal:bg to "Assets/Vertical_Line.png".
     set VLine_1:style:overflow:top to 25.
     set VLine_1:style:overflow:bottom to 200.
     set VLine_1:style:overflow:left to 235.
@@ -180,7 +180,7 @@ local Data_4 to Text_Based_GUI:addlabel().
 
 //Fuel Levels GUI
 local LOx_Level to Fuel_Levels_GUI:addhbox().
-    set LOx_Level:style:normal:bg to "GUI V3/Prop_Body.png".
+    set LOx_Level:style:normal:bg to "Assets/Prop_Body.png".
     set LOx_Level:style:overflow:left to 115.
     set LOx_Level:style:overflow:right to -115.
     set LOx_Level:style:overflow:top to -38.
@@ -191,7 +191,7 @@ local LOx_Level to Fuel_Levels_GUI:addhbox().
     set LOx_Level:style:margin:left to 340.
 
 local LOx_Pos to LOx_Level:addlabel().
-    set LOx_Pos:style:normal:bg to "GUI V3/Prop_Positive.png".
+    set LOx_Pos:style:normal:bg to "Assets/Prop_Positive.png".
     set LOx_Pos:style:overflow:left to 111.5.
     set LOx_Pos:style:overflow:right to -110.
     set LOx_Pos:style:margin:top to 167.
@@ -216,7 +216,7 @@ local LOx_Title to LOx_Level:addlabel("LOX").
     set LOx_Title:style:width to 1.
 
 local Fuel_Level to Fuel_Levels_GUI:addhbox().
-    set Fuel_Level:style:normal:bg to "GUI V3/Prop_Body.png".
+    set Fuel_Level:style:normal:bg to "Assets/Prop_Body.png".
     set Fuel_Level:style:overflow:left to 110.
     set Fuel_Level:style:overflow:right to -110.
     set Fuel_Level:style:overflow:top to -38.
@@ -226,7 +226,7 @@ local Fuel_Level to Fuel_Levels_GUI:addhbox().
     set Fuel_Level:style:align to "LEFT".
 
 local Fuel_Pos to Fuel_Level:addlabel().
-    set Fuel_Pos:style:normal:bg to "GUI V3/Prop_Positive.png".
+    set Fuel_Pos:style:normal:bg to "Assets/Prop_Positive.png".
     set Fuel_Pos:style:overflow:left to 106.75.
     set Fuel_Pos:style:overflow:right to -105.
     set Fuel_Pos:style:margin:top to 167.
@@ -251,7 +251,7 @@ local Fuel_Title to Fuel_Level:addlabel("FUEL").
     set Fuel_Title:style:width to 1.
 
 local VLine_2 to HorizontalPlace:addlabel().
-    set VLine_2:style:normal:bg to "GUI V3/Vertical_Line.png".
+    set VLine_2:style:normal:bg to "Assets/Vertical_Line.png".
     set VLine_2:style:overflow:top to 25.
     set VLine_2:style:overflow:bottom to 200.
     set VLine_2:style:overflow:left to 45.
@@ -424,7 +424,7 @@ local g_force_value to g_force_name:addlabel().
     set g_force_value:style:height to 1.
 
 local Engine_GUI to EngineHBOX:addlabel().
-    set Engine_GUI:style:bg to "GUI V3/Octoweb_Inactive.png".
+    set Engine_GUI:style:bg to "Assets/Octoweb_Inactive.png".
     set Engine_GUI:style:overflow:top to 2.5.
     set Engine_GUI:style:overflow:bottom to 152.
     set Engine_GUI:style:overflow:left to 167.
@@ -552,7 +552,7 @@ function Fuel_Levels {
                 set LOx_Percent:style:padding:left to -277.
             }
 
-            set LOx_Pos:style:normal:bg to "GUI V3/Prop_Positive.png".
+            set LOx_Pos:style:normal:bg to "Assets/Prop_Positive.png".
             set LOx_Pos:style:overflow:top to 1.265*Oxidizer.
             set LOx_Percent:text to Oxidizer + "%".
     } else if Type = "Fuel" {
@@ -566,7 +566,7 @@ function Fuel_Levels {
                 set Fuel_Percent:style:padding:left to -265.
             }
 
-            set Fuel_Pos:style:normal:bg to "GUI V3/Prop_Positive.png".
+            set Fuel_Pos:style:normal:bg to "Assets/Prop_Positive.png".
             set Fuel_Pos:style:overflow:top to 1.2675*Fuel.
             set Fuel_Percent:text to Fuel + "%".
     }
@@ -608,15 +608,15 @@ function EngineImg {
     parameter EngineCfg.
     
     if EngineCfg = 1 {
-        set Engine_GUI:style:bg to "GUI V3/Octoweb_1".
+        set Engine_GUI:style:bg to "Assets/Octoweb_1".
     } else if EngineCfg = 3 {
-        set Engine_GUI:style:bg to "GUI V3/Octoweb_3".
+        set Engine_GUI:style:bg to "Assets/Octoweb_3".
     } else if EngineCfg = 9 {
-        set Engine_GUI:style:bg to "GUI V3/Octoweb_9".
+        set Engine_GUI:style:bg to "Assets/Octoweb_9".
     } else if EngineCfg = 0 {
-        set Engine_GUI:style:bg to "GUI V3/Octoweb_Inactive.png".
+        set Engine_GUI:style:bg to "Assets/Octoweb_Inactive.png".
     } else if EngineCfg = "Disabled" {
-        set Engine_GUI:style:bg to "GUI V3/Octoweb_Inactive.png".
+        set Engine_GUI:style:bg to "Assets/Octoweb_Inactive.png".
         set Engine_GUI:ENABLED to false.
     }
 }
