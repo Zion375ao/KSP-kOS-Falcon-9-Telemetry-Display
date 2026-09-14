@@ -28,6 +28,7 @@
 - Paste the "Ships" folder inside your specific KSP directory
 - Open KSP and go to the VAB/HANGAR
 - Search for "kOS" (any kOS CPU should work, but I decided to go with KAL9000)
+- Make sure to have the "Full Thrust First Stage Tank" and "Full Thrust Octoweb" as parts for this script to work properly. 
 
 <img width="264" height="286" alt="Step 1-2" src="https://github.com/user-attachments/assets/c0617057-fad2-4a01-ad90-49c013f3a34b" />
 
