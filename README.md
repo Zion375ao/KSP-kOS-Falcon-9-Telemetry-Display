@@ -9,7 +9,7 @@
 - **Kerbal Operating System (kOS)**
 
 > [!IMPORTANT]
-> - This script might break on displays other than 1080p. RO or RSS might also break the script. Otherwise, this script should function normally. If anything pops up, feel free to contact me on Tundra Exploration's Discord or on my Discord handle, @zionjadehd.
+> - This script might break on displays other than 1080p. RO or RSS might also break the script. Otherwise, this script should function normally. If anything pops up, feel free to contact me on Tundra Exploration's Discord or file a an issue here. 
 
 ## The telemetry script adds:
 - **SPEED** (KM/H)
